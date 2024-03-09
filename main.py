@@ -240,11 +240,11 @@ tuple1 = ("nikhil", "rahul", "rajendra")
 #--------------------tuple methods
 
 """
-append
-concaniting two tuple
-count
-index
-len
+append                              if you want to add or do amy kind of ugrade first you have to convert that tuple to an list and then porfomr operaions and then again convert it in to tuple
+concaniting two tuple               as we cannot do upgrad directly in the tuple datatype but we can add tuple vairalbe and create a new varaible which will be addition of them or we can say concaniting of them
+count                               this will count howm many times a pertiuclar charcter or number is present in the tupele 
+index                               you have to put here index and input you will get value stored in that perticular index
+len                                 to ceck the len of the tuple. len start from 1.
 """
 #----------- 1  append
 toadd = (1, 2, 3, 4, 5)
@@ -299,21 +299,21 @@ set1 = {"rahul", "nikhil"}
 # print(set1)
 # print(type(set1))
 """
-union-------------------------what are ther use???????????????????????????????????????
-update--------------------------
-intersection-----------what are ther use???????????????????????????????
-intersection update-----------what are ther use???????????????????????????????
-symetric difference-----------what are ther use???????????????????????????????
+union                       if you want to create a new set where it must be addition of two sets in such case you must use union
+update                      if you want to add a set to another set then we cas use update
+intersection                it will print only those data which are common in both the sets
+intersection update         it we want to make a set where we want only intersection of both the set and we have to declare any one of them as intersecto update of ther counter part
+symetric difference         if we print those value which are not common in them
 
-disjoint-----------what are ther use???????????????????????????????
-issuperset-----------what are ther use???????????????????????????????
-issubset-----------what are ther use???????????????????????????????
-add-----------what are ther use???????????????????????????????
-update-----------what are ther use???????????????????????????????
-remove/discard-----------what are ther use???????????????????????????????
-pop -----------what are ther use???????????????????????????????
-del -----------what are ther use???????????????????????????????
-clear-----------what are ther use???????????????????????????????
+disjoint                    in both the sets if non of the values of identical to each other then only it will return true
+issuperset                  it mean all the values of set 1 must be present in set 2 only then it will return true
+issubset                    it means all the values of set 2 must be present in set 1 only then it will return true
+add                         to add a single data in the set
+update                      to add multiple data in the set
+remove/discard              both are used to cancel out the data from the string. Key difference is that if give input is not present in the set then remove wil throw and erro and prograem will stop whereas disced will still accepet the wrong input and go the next line for the further execution of the code
+pop                         to take out any random value from the set 
+del                         to delet entire the set to delet it existence
+clear                       it will clear only the data in the set and hence the set will be null set
 
 """
 
@@ -464,12 +464,15 @@ dict1 = {
 # print(type(dict1))
 "---------------dict methods--------------------"
 """
-update
-clear
-delete
-pop
-popitme
-copy
+
+(----HERE DICT MEANS DICTIONERY----------)
+
+update          if you want to add a dict to another dict use upadte
+clear           if you want to clear all values in the dict use clear
+delete          if you want to delet the exixtence of the dict then ues del
+pop             if you want to remove al value part from the dict the use pop
+popitme         this will remove the last pair in the dict
+copy            thiy will copy the dict so you can now use to to create a new dict
 
 """
 #-------------- 1  update
