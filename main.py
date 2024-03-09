@@ -12,25 +12,25 @@ title : all major datatypes and there methods
 " we got string methods to access them, changes or even modify them"
 " following are the string methods"
 """
-upper
-lower
-center
-capitalize
-title
-swapcase
-strip
-replace
-split
-count
+upper               this will capital all the characters in the string
+lower               this will small all the character in the string 
+center              this will center the string
+capitalize          this will capital only the first character in the string
+title               this will capital ever first character of the word in the string
+swapcase            this will capital small character and capital letter will turn into small
+strip               with this we can strip down menans canncel out the last or first character or word in the string
+replace             we have to input character aslo we have to mention from the string where we want to replace it (for example i wnat to replace light from flight so i have to mention like that)
+split               this will convert you string to an list form 
+count               to count howm many times a perticular character is present in the string
 
-startwith
-endwith
-isspace
-isprintabel
-isalpha
-isalnum
-find
-index"""
+startwith           it will check from the input that the string start with that input, if yes then return true and if the string does not start with the given character than return false
+endwith             it will check from the input that the string end with the input, if yes than return true and if the string does not end with the given charcter then return false
+isspace             it will check that the string is void or not. if the string does not containig any single tpye of charcater then return true. example ---> myspace("            ") this exmplace will return true as it is null
+isprintabel         this will check that in the string only character are there or not and if there are any king on eccape sequence then return false
+isalpha             it will check then in string only alpahbets are present or not. if only alphaber are prensent then true or else false
+isalnum             it will check then in string there are alpahbets and also number present or not. if only alphaber or even nuber are prensent then true or else false
+find                to ceck the character first time appear where in the string by simplely puting that character in the input  and it will output the index of the character. if the input character is not present in the string it will return -1 and porgrmae will go further to execute in next line.
+# index               to ceck the character first time appear where in the string by simplely puting that character in the input  and it will output the index of the character. if the input character is not present in string then it will return an erro and the programe will stop rghte there and further execution will not perform in the next line."""
 #-----------1 upper
 my_name = ("nikhil")
 # print(my_name.upper())
