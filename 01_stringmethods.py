@@ -118,5 +118,19 @@ my_id = "mynameisnikhilandmyrollnoi"
 # --------------------------------------------------------------------------------
 # --------------------------------------------------------------------------------
 # --------------------------------------------------------------------------------
+print("wow the world\n light the coder is ready")
 
-print("wow the world")
+
+
+
+
+print("now we go online")
+print("now we go online")
+print("now we go online")
+print("now we go online")
+print("now we go online")
+print("now we go online")
+print("now we go online")
+print("now we go online")
+print("now we go online")
+print("now we go online")
