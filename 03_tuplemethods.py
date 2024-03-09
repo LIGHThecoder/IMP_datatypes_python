@@ -1,37 +1,13 @@
-"------------------------------tuples----------------------------------------"
-"tuples are imutable means once they are formend, they can't be changed and they are ordered as well"
-
-tuple1 = ("nikhil", "rahul", "rajendra")
-# print(tuple1)
-# print(type(tuple1))
-'as we know that tuple are immutable so we have to first convert it into list and then proform task and again convert it back to tauple'
-
-# for example
-# print(type(tuple1))  # here it is the original tupple
-# listof_tuple = list(
-# tuple1
-# )  # here we declare a new varialbe and assign value of tuple1 vaeiable in it be telling it is the list version of tuple1
-# print(listof_tuple)
-# listof_tuple.pop(0)
-# print(listof_tuple)
-# listof_tuple.append("light")
-# print(listof_tuple)
-# print(type(listof_tuple))
-# tuple1 = tuple(listof_tuple)
-# print(tuple1)
-# print(type(tuple1))
-"""
-['nikhil', 'rahul', 'rajendra']
-['rahul', 'rajendra']
-['rahul', 'rajendra', 'light']
-<class 'list'>
-('rahul', 'rajendra', 'light')
-<class 'tuple'>
-
-"""
 
 #--------------------tuple methods
 
+"""
+append
+concaniting two tuple
+count
+index
+len
+"""
 #----------- 1  append
 toadd = (1, 2, 3, 4, 5)
 # print(toadd)
@@ -77,4 +53,4 @@ howmnay = [2, 3, 4, 5, 1, 2, 3, 2, 3, 2, 1, 2, 2, 2]
 #-----------------------------------------------------------------------------------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------------
-#-----------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------------------

@@ -239,6 +239,13 @@ tuple1 = ("nikhil", "rahul", "rajendra")
 
 #--------------------tuple methods
 
+"""
+append
+concaniting two tuple
+count
+index
+len
+"""
 #----------- 1  append
 toadd = (1, 2, 3, 4, 5)
 # print(toadd)
